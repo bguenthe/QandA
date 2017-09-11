@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:id="@+id/TableLayout1"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	>
+    <EditText android:layout_height="wrap_content" android:id="@+id/question" android:layout_width="fill_parent" android:layout_weight="1" android:inputType="textMultiLine" android:gravity="top">
+        <requestFocus></requestFocus>
+    </EditText>
+    <EditText android:layout_height="wrap_content" android:id="@+id/answer" android:layout_weight="1" android:layout_width="fill_parent" android:inputType="textMultiLine" android:gravity="top"></EditText>
+	<LinearLayout android:id="@+id/linearLayout1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<Button android:id="@+id/richtig" android:text="Richtig" android:layout_height="fill_parent" android:layout_width="match_parent" android:layout_weight="0.5"></Button>
+		<Button android:id="@+id/falsch" android:text="Falsch" android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="0.5"></Button>
+	</LinearLayout>
+</TableLayout>
